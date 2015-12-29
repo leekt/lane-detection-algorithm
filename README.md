@@ -1,2 +1,3 @@
 # lane-detection-algorithm
-project file from 
+project file for android lane detection
+from snu-ece
