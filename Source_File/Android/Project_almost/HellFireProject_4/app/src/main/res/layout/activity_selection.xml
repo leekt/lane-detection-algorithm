@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    android:layout_width="match_parent"
+
+
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+
+
+    <Button
+        android:id="@+id/forwardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시작합시다."
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="빠르게"
+        android:id="@+id/textView"
+        android:textColor="#000000"
+        android:layout_marginBottom="49dp"
+        android:layout_above="@+id/forwardButton"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="이규택, 신승훈"
+        android:id="@+id/textView5"
+        android:textColor="#000000"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/forwardButton"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
